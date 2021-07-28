@@ -1,0 +1,116 @@
+﻿
+body {
+    padding-top:100px;
+    font-size:14px;
+    
+
+}
+
+
+
+.navbar-default {
+    /* https: //cssgradient.io/gradient-backgrounds/ color: white;*/
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    border-color: #e7e7e7;
+}
+        .navbar-default .navbar-brand {
+            color: #fff;
+        }
+    .navbar-default .navbar-nav > li > a {
+        color: #fff;
+    }
+        
+        .navbar-default .navbar-nav > li > a:hover {
+            color: #ffd800;
+        }
+.nav > li {
+    position: relative;
+    display: block;
+    height: 75px;
+    padding-top: 10px;
+}
+.myFooter {
+    background-color: #071b4d;
+    /*padding-top: 10px;*/
+    text-align: justify;
+}
+ .myFooter h3 
+       
+
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.subFooter {
+    background-color: #071b4d;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+}
+.myFooter a {
+    color:azure;
+}
+.myFooter h3, ul{
+    margin-bottom:20px;
+}
+.logo-size {
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+  
+    margin-top:2px;
+}
+ 
+ .myFooter ul {
+     list-style:none;
+ }
+
+.btn-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+}
+
+    .btn-grad:hover {
+        background-position: right center;
+    }
+
+
+#searchName {
+    width: 130px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-image: url('../images/icons8-search-30.png');
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: 95px 10px;
+    padding: 20px 20px 20px 20px;
+    margin: 5px 10px 5px 20px;
+    transition: width 0.4s ease-in-out;
+    color: #000
+}
+    #searchName:focus {
+        width: 100%;
+        border-radius:30px;
+        border:none;
+       
+    }
+.imageSize{
+    font-size:90px;
+}
+.navbar-user{
+    padding:10px;
+    padding-bottom:0px;
+    width:350px;
+
+}
+
+
+@media(min-width : 992px) {
+    .col-md-3 {
+        width : 23%;
+    }
+}
+    
